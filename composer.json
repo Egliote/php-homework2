@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "autoload": {
+    "psr-4": { "Nfq\\Weather\\": "src/"}
+  },
+  "require": {
+    "phpunit/phpunit": "7.1.1"
+  }
+}
